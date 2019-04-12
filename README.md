@@ -44,4 +44,4 @@ $ npm start
 ![screenshot of the main screen](/screenshots/FirstPage.png)
 
 ## A sample video demo of main features of app
-![video demo of the Momentum project](/screenshots/VideoDemo.webm)
+![video demo of the Momentum project](/screenshots/VideoDemo.gif)
