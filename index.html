@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Momentum</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+   </head>
+   <body class="bg">
+      <div class="addtodo">
+         <form id="form-add-todo" class="form-add-todo">
+            <label class="todo" for="todo">To do:</label>
+            <input type="text" placeholder="New Todo" id="new-todo-item" class="new-todo-item" name="todo" />
+            <input type="submit" id="add-todo-item" class="add-todo-item" value="+" />
+         </form>
+         <form id="form-todo-list">
+            <ul id="todo-list" class="todo-list">
+            </ul>
+         </form>
+      </div>
+      <section class="hero is-primary is-bold">
+         <div class="hero-body">
+            <div class="container has-text-centered">
+               <h1 class="title">
+                  <i class="far fa-calendar-alt"></i>&nbsp;&nbsp;<span id="Dateandtime"></span>
+               </h1>
+               <h2 class="subtitle">
+                  Weather in <span id="usercity"> </span> <span id="weather"> </span>&nbsp;&nbsp;<i class="fas fa-cloud" id="weatherIcon"></i>
+               </h2>
+            </div>
+         </div>
+      </section>
+      <br>
+      <br>
+      <div class="level-item has-text-centered " style="
+         margin-top: 7rem;">
+         <div class="prompt">
+            <div class="question"><span class="question-title">Hello, what's your name?</span></div>
+            <input id="name" type="text" spellcheck="false" class="nameInput">
+            <div class="level-item has-text-centered" style="margin-top:1rem;flex-direction: column;">
+               <a class="button is-primary is-rounded is-medium" id="btn">Submit</a>
+               <!--<input id="btn" class="button button4" type="button" value="submit"/>-->
+               <div class="welcome">
+                  <p class="greeting">Good afternoon , </p>
+                  <span id="displayname"></span>
+               </div>
+               <!-- <label id="tasktoday2" for="tasktoday">Good evening,</label> -->
+               <!-- <span id="displayname"></span> -->
+               <div>
+                  <label id="tasktoday2" for="tasktoday">What is your main focus for today?</label>
+               </div>
+               <div>
+                  <span id="displaytasktoday"></span>
+                  <i id="tick" class="fas fa-check"></i>
+                  <i id="cross" class="fas fa-times"></i>
+               </div>
+            </div>
+            <div class="level-item has-text-centered">
+               <input id="tasktoday" type="text">
+               <br>
+            </div>
+            <div class="level-item has-text-centered">
+               <span id="quotes"> </span>
+            </div>
+         </div>
+      </div>
+      <script src="script.js"></script>
+   </body>
+</html>

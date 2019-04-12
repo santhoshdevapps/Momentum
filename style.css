@@ -1,0 +1,241 @@
+html,
+body {
+	/* margin:0%;
+   height:0%; */
+	height: 100%;
+}
+
+.bg {
+	background-position: center;
+	background: #000;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hero.is-primary.is-bold,
+#name,
+#tasktoday {
+	background: none !important;
+}
+
+.hero.is-primary .title,
+.question-title,
+.greeting,
+#displayname {
+	font-size: 3.5rem;
+	font-weight: bolder;
+}
+
+#tasktoday2 {
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+.hero.is-primary .subtitle {
+	font-weight: 900;
+}
+
+#tasktoday {
+	/* background-color: rgba(255, 255, 255, 0.438); */
+	/* min-width: 50%; */
+	max-width: 90%;
+	margin: 0 auto;
+	padding-top: 15px;
+	display: inline-block;
+	line-height: normal;
+	overflow: hidden;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	font-size: 2rem;
+	border: 0;
+	outline: 0;
+	/* background: transparent; */
+	border-bottom: 3px solid#00d1b1;
+}
+
+#name {
+	/* min-width: 50%; */
+	max-width: 90%;
+	margin: 0 auto;
+	padding-top: 15px;
+	display: inline-block;
+	line-height: normal;
+	overflow: hidden;
+	color: #fff;
+	;
+	font-weight: 600;
+	text-align: center;
+	font-size: 2rem;
+	border: 0;
+	outline: 0;
+	/* background: transparent; */
+	border-bottom: 3px solid #00d1b1;
+}
+
+.question {
+	font-family: 'Karla', sans-serif;
+	;
+	font-size: 237.5%;
+	font-weight: 400;
+}
+
+.prompt {
+	height: 150px;
+	/* position: absolute; */
+	top: 50%;
+	right: 0;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+#Dateandtime {
+	font-family: 'Rubik', sans-serif;
+}
+
+#usercity {
+	font-family: 'Karla', sans-serif;
+	;
+	font-size: 20px;
+}
+
+#weather {
+	font-family: 'Karla', sans-serif;
+	;
+	font-size: 20px;
+}
+
+.greeting,
+#displayname,
+.question-title {
+	font-family: 'Karla', sans-serif;
+	;
+	font-size: 3.5rem;
+	color: #fff;
+}
+
+
+/* #tasktoday{
+font-family: 'Rubik', sans-serif;;
+font-size:18px;
+} */
+
+
+/* #name{
+font-family: 'Rubik', sans-serif;
+font-size:25px;
+} */
+
+
+/* #displayname{
+font-family: 'Karla', sans-serif;;
+font-size:25px;
+} */
+
+.welcome {
+	display: flex;
+}
+
+
+/* .greeting{
+font-family: 'Karla', sans-serif;;
+font-size:3.5rem;
+color: #fff;
+} */
+
+#displaytasktoday {
+	font-family: 'Karla', sans-serif;
+	;
+	font-size: 25px;
+	color: #fff;
+	padding-right: 10px;
+}
+
+#quotes {
+	font-family: 'Karla', sans-serif;
+	;
+	font-size: 1.25rem;
+	font-weight: 900;
+	color: #00d1b1;
+	margin-top: 4rem;
+}
+
+#tick {
+	margin: 0 8px;
+	color: #00d1b1;
+}
+
+.new-todo-item, .focusInput{
+	background-color: transparent;
+	border: none;
+  outline:none;
+	font-size: 1rem;
+	color: #fff;
+	line-height: 2.5;
+}
+
+.addtodo {
+	padding: 22px;
+	right: 34px;
+	position: absolute;
+	bottom: 24px;
+	background-color: #0f0f0fec;
+}
+
+.todo-list {
+	display: block;
+	cursor: default;
+	/* outline: 0; */
+	word-wrap: break-word;
+	color: #fff;
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 2.5;
+}
+
+.todo-item-delete {
+	float: right;
+	margin-top: 13px;
+	background: transparent;
+	border: none;
+}
+
+.add-todo-item {
+	float: right;
+	font-size: 1.39rem;
+	font-weight: bold;
+	margin-top: 7px;
+	background: none;
+	border: none;
+	color: #fff;
+}
+
+.todo-item-done {
+	margin-right: 5px;
+}
+
+.fa-times:before {
+	content: "\f00d";
+	font-size: 1rem;
+}
+
+.todo {
+	display: block;
+	font-size: 1.25rem;
+	font-weight: 600;
+	line-height: 1.25;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+#cross {
+	color: hsl(348, 100%, 61%)
+}
+
+#delete {
+	color: hsl(348, 100%, 61%)
+}
+
+#weatherIcon {
+	color: rgba(255, 255, 255, 0.616);
+}
