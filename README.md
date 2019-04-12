@@ -41,7 +41,8 @@ $ npm start
 ```
 
 ## A static screenshot of the main screen of app
-![alt text](http://url/to/img.png)
+![GitHub Logo](/images/logo.png)
+Format: ![screenshot of the main screen](http://url/to/img.png)
 
 ## A sample video demo of main features of app
-![alt text](http://url/to/img.png)
+![video demo of the Momentum project](http://url/to/img.gif)
