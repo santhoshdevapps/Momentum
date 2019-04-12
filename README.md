@@ -32,12 +32,12 @@ Project is created with:
 * api.unsplash.com
 
 ## Setup
-To run this project, install it locally using npm:
+To run this project:
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ git clone https://github.com/santhoshdevapps/Momentum.git
+$ cd Momentum
+$ php -S localhost:<PORTNUMBER>(php is required) or Run the index.html file in any browser
 ```
 
 ## A static screenshot of the main screen of app
