@@ -359,6 +359,3 @@ $(document).ready(function() {
 
     }
 });
-
-
-//sample check
